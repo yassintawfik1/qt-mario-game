@@ -84,8 +84,8 @@ clean: CMakeFiles/qt-mario-game_autogen.dir/clean
 # Target rules for target CMakeFiles/qt-mario-game.dir
 
 # All Build rule for target.
-CMakeFiles/qt-mario-game.dir/all: CMakeFiles/qt-mario-game_autogen_timestamp_deps.dir/all
 CMakeFiles/qt-mario-game.dir/all: CMakeFiles/qt-mario-game_autogen.dir/all
+CMakeFiles/qt-mario-game.dir/all: CMakeFiles/qt-mario-game_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt-mario-game.dir/build.make CMakeFiles/qt-mario-game.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt-mario-game.dir/build.make CMakeFiles/qt-mario-game.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/yassintawfik/qt-mario-game/build/Qt_6_8_2_for_macOS-Debug/CMakeFiles --progress-num=1,2,3,4 "Built target qt-mario-game"

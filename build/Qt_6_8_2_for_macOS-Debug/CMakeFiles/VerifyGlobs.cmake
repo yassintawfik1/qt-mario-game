@@ -43,6 +43,17 @@ file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/yassintawfik/qt-mario-
 set(OLD_GLOB
   "/Users/yassintawfik/qt-mario-game/build/Qt_6_8_2_for_macOS-Debug/CMakeFiles/3.31.5/CompilerIdCXX/CMakeCXXCompilerId.cpp"
   "/Users/yassintawfik/qt-mario-game/main.cpp"
+  "/Users/yassintawfik/qt-mario-game/src/Coin.cpp"
+  "/Users/yassintawfik/qt-mario-game/src/Enemy.cpp"
+  "/Users/yassintawfik/qt-mario-game/src/GameObject.cpp"
+  "/Users/yassintawfik/qt-mario-game/src/Level.cpp"
+  "/Users/yassintawfik/qt-mario-game/src/Mario.cpp"
+  "/Users/yassintawfik/qt-mario-game/src/Obstacle.cpp"
+  "/Users/yassintawfik/qt-mario-game/src/Platform.cpp"
+  "/Users/yassintawfik/qt-mario-game/src/Player.cpp"
+  "/Users/yassintawfik/qt-mario-game/src/PowerUp.cpp"
+  "/Users/yassintawfik/qt-mario-game/src/PrincessPeach.cpp"
+  "/Users/yassintawfik/qt-mario-game/src/main.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -61,6 +72,17 @@ endif()
 # _directory_contents at /Users/yassintawfik/Qt/6.8.2/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/yassintawfik/qt-mario-game/*.h")
 set(OLD_GLOB
+  "/Users/yassintawfik/qt-mario-game/include/Coin.h"
+  "/Users/yassintawfik/qt-mario-game/include/Enemy.h"
+  "/Users/yassintawfik/qt-mario-game/include/GameObject.h"
+  "/Users/yassintawfik/qt-mario-game/include/Level.h"
+  "/Users/yassintawfik/qt-mario-game/include/Mario.h"
+  "/Users/yassintawfik/qt-mario-game/include/Obstacle.h"
+  "/Users/yassintawfik/qt-mario-game/include/Platform.h"
+  "/Users/yassintawfik/qt-mario-game/include/Player.h"
+  "/Users/yassintawfik/qt-mario-game/include/PowerUp.h"
+  "/Users/yassintawfik/qt-mario-game/include/PrincessPeach.h"
+  "/Users/yassintawfik/qt-mario-game/player.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
