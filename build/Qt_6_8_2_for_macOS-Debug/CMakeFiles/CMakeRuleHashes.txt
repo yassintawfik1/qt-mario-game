@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+48ec5092bc684dcd5a6409525d66ee2e CMakeFiles/qt-mario-game_autogen
+d4227d2b8ac07e1ed67390bb21dfbe35 qt-mario-game_autogen/timestamp
